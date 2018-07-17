@@ -7,3 +7,7 @@ The compiling process is divided into the following 4 steps:
 4th - The linker joins all the object files, libraries and start/exit codes into the executable program.
 
 In UNIX environment the source files are compiled using GCC library or GNU Compiler Collection.
+Use this form:
+gcc -o "out_name" -Wall -Werror -pedantic -std=gnu99 "source_file.c"
+
+
