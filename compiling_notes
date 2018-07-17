@@ -1,0 +1,9 @@
+Notes about compiling
+
+The compiling process is divided into the following 4 steps:
+1st - Code and header files (extensions ".c" and ".h") go into the preprocessor
+2nd - Intermediary file goes into compiler writing the assembly file
+3rd - Assembly file goes into the assembler to write the object file (extension ".o")
+4th - The linker joins all the object files, libraries and start/exit codes into the executable program.
+
+In UNIX environment the source files are compiled using GCC library or GNU Compiler Collection.
