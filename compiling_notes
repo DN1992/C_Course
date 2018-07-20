@@ -10,4 +10,9 @@ In UNIX environment the source files are compiled using GCC library or GNU Compi
 Use this form:
 gcc -o "out_name" -Wall -Werror -pedantic -std=gnu99 "source_file.c"
 
+-o is for speed optimized assembly code.
 
+Debuging through Compiler Errors
+1st - Always fix them by order.
+2nd - Ignore unfamiliar error messages until all addressed.
+3rd - 
